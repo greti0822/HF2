@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+# ==============================================================================
+# Mit csinál: Rövid összefoglalót ír ki a gépről.
+# Hogyan kell hívni: ./rendszerinfo.sh [fajlnev]
+# Mit ad vissza: 0 ha sikeres, 1 ha a megadott fájl nem írható.
+# ==============================================================================
 
 KIMENET="/dev/stdout"
 
